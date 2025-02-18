@@ -25,4 +25,4 @@ jobs:
 
     - name: Run tkinter example script with Xvfb
       run: |
-        xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' python tkinter_example.py
+        timeout 60 xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' python tkinter_example.py
