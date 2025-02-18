@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Replace with the version of Python you need
+        python-version: '3.11'  # Replace with the version of Python you need
 
     - name: Install tkinter
       run: sudo apt-get install python3-tk
