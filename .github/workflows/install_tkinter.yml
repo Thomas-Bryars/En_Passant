@@ -22,4 +22,4 @@ jobs:
       run: sudo apt-get install python3-tk
 
     - name: Run your script
-      run: python your_script.py
+      run: python TKInter.py
